@@ -14,6 +14,8 @@ import { HeroesComponent }  from './heroes.component';
 
 import { HeroDetailComponent } from './hero-detail.component';
 
+import { HeroSearchComponent } from './hero-search.component';
+
 import { DashboardComponent } from './dashboard.component';
 
 import { HeroService }  from './hero.service';
@@ -31,7 +33,8 @@ import { routing }        from './app.routing';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   providers: [
     HeroService,
